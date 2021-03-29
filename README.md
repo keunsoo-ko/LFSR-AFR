@@ -10,7 +10,7 @@ Official PyTorch Code for
 "Light Field Super-Resolution via Adaptive Feature Remixing, IEEE Trans. Image Process., 2021"
 
 ### Requirements
-- PyTorch 1.3.1 <span style="color: red"> (Other versions can cause different results) </span>
+- PyTorch 1.3.1 <font color="red"> (Other versions can cause different results) </font>
 - python 3.7
 
 
