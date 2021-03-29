@@ -18,7 +18,7 @@ Download repository:
 ```
     $ git clone https:https://github.com/keunsoo-ko/LFSR-AFR.git
 ```
-Download [pre-trained model](https://drive.google.com/u/0/uc?export=download&confirm=JG-C&id=1YIxJguzgFp0t7iLHw1bKLrv7JQrc4lMG) parameters:
+Download [pre-trained model](https://drive.google.com/file/d/15Y5KrMbD1lpMN2jUeV9KLChaERG3q_Zf/view?usp=sharing) parameters:
 ```
     $ unzip LFSR-AFR.zip
 ```
