@@ -16,9 +16,9 @@ Official PyTorch Code for
 
 Download repository:
 ```
-    $ git clone https://github.com/JunHeum/BMBC.git
+    $ git clone https:https://github.com/keunsoo-ko/LFSR-AFR.git
 ```
 Download [pre-trained model](https://drive.google.com/u/0/uc?export=download&confirm=JG-C&id=1YIxJguzgFp0t7iLHw1bKLrv7JQrc4lMG) parameters:
 ```
-    $ unzip BMBC_Weights.zip
+    $ unzip LFSR-AFR.zip
 ```
