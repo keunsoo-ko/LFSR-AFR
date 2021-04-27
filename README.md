@@ -21,7 +21,7 @@ Download repository:
 Download [pre-trained model](https://drive.google.com/file/d/15Y5KrMbD1lpMN2jUeV9KLChaERG3q_Zf/view?usp=sharing) parameters
 
 ### Usage
-Run Test for spatial super resolution on HCI dataset with factor x2:
+Run Test for the spatial super resolution on the HCI dataset with the factor x2:
 ```
     $ python demo.py --mode SR --path LFSR-AFR.pth(put downloaded model path)
 ```
