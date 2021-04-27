@@ -7,7 +7,7 @@
 Keunsoo Ko, Yeong Jun Koh, SoonKeun Chang, and Chang-Su Kim
 
 Official PyTorch Code for 
-"Light Field Super-Resolution via Adaptive Feature Remixing, IEEE Trans. Image Process., 2021"
+"Light Field Super-Resolution via Adaptive Feature Remixing, IEEE Trans. Image Process., vol. 30, pp. 4114-4128, Apr. 2021"
 
 ### Requirements
 - PyTorch 1.3.1 (Other versions can cause different results)
