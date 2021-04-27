@@ -13,9 +13,15 @@ Official PyTorch Code for
 - PyTorch 1.3.1 (Other versions can cause different results)
 - python 3.7
 
-
+### Installation
 Download repository:
 ```
     $ git clone https:https://github.com/keunsoo-ko/LFSR-AFR.git
 ```
 Download [pre-trained model](https://drive.google.com/file/d/15Y5KrMbD1lpMN2jUeV9KLChaERG3q_Zf/view?usp=sharing) parameters
+
+### Usage
+Run Test for spatial super resolution on HCI dataset:
+```
+    $ python demo.py --mode SR --path LFSR-AFR.pth(put downloaded model path)
+```
