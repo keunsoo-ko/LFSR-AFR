@@ -25,3 +25,7 @@ Run Test for the spatial super resolution on the HCI dataset with the factor x2:
 ```
     $ python demo.py --mode SR --path LFSR-AFR.pth(put downloaded model path)
 ```
+Run Test for the angular super resolution on the HCI dataset with the factor x2:
+```
+    $ python demo.py --mode AR --path LFSR-AFR.pth
+```
