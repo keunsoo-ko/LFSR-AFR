@@ -3,6 +3,7 @@ from lib.RDN import Blend as AR
 from lib.model import Net as SR
 from lib.utils import rgb2y
 from SR_modes import run_SR
+from AR_modes import run_AR
 import torch
 from skimage.measure import compare_ssim, compare_psnr
 import numpy as np
@@ -30,7 +31,7 @@ args = parser.parse_args()
 
 os.environ["CUDA_VISIBLE_DEVICES"] = str(args.device)
 
-device = torch.device("cuda:0")
+device = torch.device("cuda:%d"%args.device)
 SR_model = SR().to(device)
 AR_model = AR().to(device)
 
@@ -58,5 +59,9 @@ for path in dirs:
         for i, target in enumerate(targets):
             PSNR.append(compare_psnr(outputs[i], target))
             SSIM.append(compare_ssim(outputs[i], target))
+    elif args.mode == "AR":
+        psnr, ssim = run_AR(AR_model, SR_model, images, device)
+        PSNR += psnr
+        SSIM += ssim
 
 print("PSNR : {}, SSIM : {}".format(np.mean(PSNR), np.mean(SSIM)))

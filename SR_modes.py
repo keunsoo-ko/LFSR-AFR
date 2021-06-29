@@ -4,7 +4,7 @@ from lib.utils import load_img, imresize
 
 def run_SR(SR_model, images, sparse=1, factor=2):
     ''' inputs 
-            SR_model - spatial SR model
+            SR_model - Spatial SR model
             images - target images
             sparse - sparse = 1, defualt for spatial SR
                      sparse = 2, only use for Joint SAR

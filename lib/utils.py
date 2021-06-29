@@ -6,8 +6,12 @@ from math import ceil
 from os.path import isfile
 from torch.autograd import Variable
 
+
 list_ = [[0], [range(1, 8)][0], [8], [range(9, 72, 9)][0],
         [range(17, 72, 9)][0], [72], [range(73, 80)][0], [80]]
+
+def toTensor(inputs, index, device):
+    return [torch.from_numpy(inputs[id])[None, None].to(device) for id in index]
 
 def BI(inputs, factor=2):
     factor = 1/factor
