@@ -16,7 +16,7 @@ Official PyTorch Code for
 ### Installation
 Download repository:
 ```
-    $ git clone https:https://github.com/keunsoo-ko/LFSR-AFR.git
+    $ git clone https://github.com/keunsoo-ko/LFSR-AFR.git
 ```
 Download [pre-trained model](https://drive.google.com/file/d/15Y5KrMbD1lpMN2jUeV9KLChaERG3q_Zf/view?usp=sharing) parameters
 
